@@ -9,4 +9,4 @@ mergesort: $(OBJETOS)
 	$(CC) -c $<  -o $@
 
 clean:
-	rm -f *.o Prog.exe
+	rm -f *.o mergesort
