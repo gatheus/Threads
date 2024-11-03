@@ -11,4 +11,6 @@ ordenação e funções para ler e criar arquivos. Esse arquivo possui seu *head
 3. [alocacao.c](alocacao.c) - Contém funções de alocação dinâmica, já que em diversas partes do código,
 foi preciso alocar dinamicamente desde inteiros até structs inteiras. Esse arquivo possui seu *header*: [alocacao.h](alocacao.h)
 
+E para deixar a compilação mais fácil, criei tambem um arquivo [Makefile](Makefile)
+
 **Para acessar cada um dos arquivos, basta clicar sobre os textos em azul.**
