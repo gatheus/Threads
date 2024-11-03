@@ -1,6 +1,6 @@
 # Projeto Multithreading
 Nesse repositório, se encontram todos arquivos usados para a construção do programa requisitado.
-É importante lembrar que este README é somente uma introdução. Caso queira ver o relatório completo de todos resultados obtidos, clique [aqui](Relatório do Projeto.pdf).
+É importante lembrar que este README é somente uma introdução. Caso queira ver o relatório completo de todos resultados obtidos, clique [aqui](Relatório%20do%20Projeto.pdf).
 
 ## Breve introdução
 Para uma melhor modularização, dividi o código em três partes: 
