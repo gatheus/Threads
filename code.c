@@ -12,7 +12,7 @@ void *OrdenacaoVetor(void *args) {
     parametros *param = (parametros *)args;
 
     /*Mutex adicionado pois a informação "QualThreadEstou" é uma região 
-    crítica que deve ser acessada somente por 1 thread the cada vez*/ 
+    crítica que deve ser acessada somente por 1 thread de cada vez*/ 
     pthread_mutex_lock(&(param->mutex));
     int QualThreadEstou = param->QualThreadEstou;
     (param->QualThreadEstou)++;
