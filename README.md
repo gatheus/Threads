@@ -8,7 +8,7 @@ Para uma melhor modularização, dividi o código em quatro partes:
 a função *OrdenacaoVetor*, que será utilizada por cada uma das Threads.
 2. [funcoes.c](funcoes.c) - Contém as funções principais do programa, como funções de
 ordenação e funções para ler e criar arquivos. Esse arquivo possui seu *header*: [funcoes.h](funcoes.h)
-3. [funcoesAux.c](funcoesAux.c): Contém as funções auxiliares do programa, que, mesmo realizando partes importantes,
+3. [funcoesAux.c](funcoesAux.c) - Contém as funções auxiliares do programa, que, mesmo realizando partes importantes,
 não são responsáveis pelo propósito principal do programa. Esse arquivo possui seu header: [funcoesAux.h](funcoesAux.h)
 4. [alocacao.c](alocacao.c) - Contém funções de alocação dinâmica, já que em diversas partes do código,
 foi preciso alocar dinamicamente desde inteiros até structs inteiras. Esse arquivo possui seu *header*: [alocacao.h](alocacao.h)
