@@ -29,15 +29,6 @@ pthread_t *AlocacaoDinamicaID(int tamanho) {
     else return vetor;
 }
 
-parametros *AlocacaoDinamicaStruct(int tamanho) {
-     parametros *p = (parametros*)malloc(tamanho*sizeof(parametros));
-    if (p == NULL) {
-        printf("Alocação falhou.\n");
-        exit(EXIT_FAILURE);
-    }
-    else return p;
-}
-
 sem_t *AlocacaoDinamicaSemaforo(int tamanho) {
     sem_t *vetor = (sem_t*)malloc(tamanho*sizeof(sem_t));
     if (vetor == NULL) {
